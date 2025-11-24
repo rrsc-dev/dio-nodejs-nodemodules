@@ -7,7 +7,7 @@ const config = require("./services/config");
 const database = require("./services/database");
 
 async function main() {
-    console.log(database.connectToDatabase("BD"));
+    await database.connectToDatabase("BD");
     getFullName("1", "Teclado");
 }
 

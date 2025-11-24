@@ -1,5 +1,5 @@
 // Exportação padrão, as função já são exportadas por padrão
-exports.connectToDatabase = (databaseName) => {
+exports.connectToDatabase = async (databaseName) => {
     console.log("Conectando ao banco: " + databaseName);
 }
 
